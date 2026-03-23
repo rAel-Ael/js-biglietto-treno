@@ -8,7 +8,7 @@ let eta = parseInt(prompt("inserisci qui la tua eta:"));
 let prezzo = km * costoKm;
 let finalCost = prezzo;
 
-if (eta < 18) {
+if (eta < 10) {
     finalCost = prezzo * 0.8;
 }
 else if (eta > 65) {
